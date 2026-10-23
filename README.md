@@ -1,36 +1,32 @@
 # DataShield AI – Automated PII Detection and Data Masking
 
 ## Overview
-DataShield AI is a Python-based data privacy project designed to identify and mask Personally Identifiable Information (PII) in tabular datasets.
-
-## Problem Statement
-Sensitive information in CSV and Excel datasets needs to be protected before data is shared or used for analysis.
+DataShield AI is a Python-based tool designed to identify potentially sensitive Personally Identifiable Information (PII) in tabular datasets and mask it to help protect data privacy.
 
 ## Key Features
-- Processes CSV and Excel datasets.
-- Identifies potentially sensitive information.
-- Masks selected sensitive fields.
-- Supports safer data handling while retaining useful dataset structure.
+- Supports tabular data such as CSV and Excel files.
+- Uses Python and Pandas for data processing.
+- Detects potential sensitive information such as email addresses, phone numbers, names, and locations.
+- Masks identified sensitive values to reduce exposure of personal information.
 
-## Technologies Used
+## Workflow
+1. Upload a dataset.
+2. Scan the data for potential PII.
+3. Identify sensitive columns or values.
+4. Apply masking to selected sensitive information.
+5. Review the processed output.
+
+## Technology Stack
 - streamlit
 - pandas
 - spacy
 - oracledb
 
-## Workflow
-1. Load a tabular dataset.
-2. Scan the data for potentially sensitive information.
-3. Identify fields requiring protection.
-4. Apply masking to the selected data.
-5. Review the protected output.
-
-## Video
-Video of the whole process will be added here
+## Project Demo
+Watch the DataShield AI demonstration
 
 ## Source Code
-The source code is maintained in a private repository and is not included in this public project overview.
+The source code is maintained in a private repository and is not publicly available.
 
-## Author
-Bhavna B
+
 
