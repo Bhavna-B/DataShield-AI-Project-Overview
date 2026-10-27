@@ -23,7 +23,7 @@ DataShield AI is a Python-based tool designed to identify potentially sensitive 
 - oracledb
 
 ## Project Demo
-Watch the DataShield AI demonstration
+Watch the DataShield AI demonstration and the screenshots of the webpage.
 
 ## Source Code
 The source code is maintained in a private repository and is not publicly available.
